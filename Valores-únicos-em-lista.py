@@ -10,7 +10,6 @@ while True:
         print('=-' * 15)
     else:
         print('Valor duplicado. Não será adicionado.')
-
     opcao = str(input('Deseja continuar? [S/N] ')).upper().strip()[0]
     print('=-' * 15)
     if opcao == 'S':
